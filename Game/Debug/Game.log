@@ -1,6 +1,11 @@
-﻿  window.h
-renderer.obj : error LNK2005: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) already defined in main.obj
-time.obj : error LNK2005: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) already defined in main.obj
-ui.obj : error LNK2005: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) already defined in main.obj
-window.obj : error LNK2005: "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z) already defined in main.obj
-C:\Users\arsen\source\repos\Game\Debug\Game.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  renderer.cpp
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(11,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(11,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(28,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(28,21): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(28,14): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(52,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\arsen\source\repos\Game\Game\renderer.cpp(54,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  Game.vcxproj -> C:\Users\arsen\source\repos\Game\Debug\Game.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

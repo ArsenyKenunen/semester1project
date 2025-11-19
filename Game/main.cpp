@@ -6,5 +6,6 @@
 int main(int argc, char** argv) 
 {
 	window game = window(argc, argv);
+	game.run();
 	return 0;
 }
