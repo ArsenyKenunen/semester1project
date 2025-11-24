@@ -1,6 +1,9 @@
 ﻿  ui.cpp
 C:\Users\arsen\source\repos\Game\Game\ui.cpp(11,21): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
 C:\Users\arsen\source\repos\Game\Game\ui.cpp(11,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  window.cpp
+C:\Users\arsen\source\repos\Game\Game\window.cpp(12,18): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  Generating Code...
   Game.vcxproj -> C:\Users\arsen\source\repos\Game\Debug\Game.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include <stdarg.h>
 
-void output(int x, int y, const char* string)
+void output(int x, int y, string text)
 {
     int len, i;
 
-    len = (int)strlen(string);
+    len = (int)(text.length());
     glRasterPos2f(x,y);
     for (i = 0; i < len; i++) {
-        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, string[i]);
+        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, text[i]);
     }
 }
 
@@ -22,6 +22,17 @@ UIobject::UIobject()
 	y0 = -0.5;
 	state = true;
 	text = "default text";
+
+}
+
+UIobject::UIobject(string input_text)
+{
+    w = 1;
+    h = 1;
+    x0 = -0.5;
+    y0 = -0.5;
+    state = true;
+    text = input_text;
 
 }
 
@@ -41,7 +52,7 @@ void UIobject::show()
         glEnd();
 
         glColor3f(0, 1, 0.5);
-        output(0, 0, "default text");
+        output(0, 0, text);
         glFlush();
     }
 }
