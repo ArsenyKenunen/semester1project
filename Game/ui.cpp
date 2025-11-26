@@ -1,6 +1,5 @@
 #include "header.h"
 #include <ctime>
-#include <stdio.h>
 #include <stdarg.h>
 
 void output(int x, int y, string text)
@@ -22,11 +21,12 @@ UIobject::UIobject()
 	y0 = -0.5;
 	state = true;
 	text = "default text";
-
+    fixedAspectRatio = false;
 }
 
 UIobject::UIobject(string input_text)
 {
+    fixedAspectRatio = false;
     w = 1;
     h = 1;
     x0 = -0.5;
@@ -35,6 +35,7 @@ UIobject::UIobject(string input_text)
     text = input_text;
 
 }
+
 
 void UIobject::show()
 {

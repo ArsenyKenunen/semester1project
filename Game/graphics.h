@@ -12,6 +12,7 @@ public:
 
 	void show();
 private:
+	bool fixedAspectRatio;
 	float w, h, x0, y0;
 	bool state;
 	string text;

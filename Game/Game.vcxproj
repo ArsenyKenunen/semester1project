@@ -126,6 +126,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="3Dobject.cpp" />
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="renderer.cpp" />
     <ClCompile Include="time.cpp" />
@@ -133,6 +135,7 @@
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="entities.h" />
     <ClInclude Include="graphics.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="window.h" />

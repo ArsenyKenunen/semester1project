@@ -36,6 +36,9 @@
     <ClInclude Include="graphics.h">
       <Filter>Source Files\graphics</Filter>
     </ClInclude>
+    <ClInclude Include="entities.h">
+      <Filter>Source Files\entities</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -52,6 +55,12 @@
     </ClCompile>
     <ClCompile Include="ui.cpp">
       <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="3Dobject.cpp">
+      <Filter>Source Files\entities</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
