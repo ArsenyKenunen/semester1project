@@ -19,9 +19,28 @@ public:
 	void rotateAbsolute(float angle, const vec3& axis);
 	void rotateRelative(float angle, const vec3& axis);
 
-private:
+protected:
 	vec3 position;
 	quat orientation;
 	vec3 scale;
+
+};
+
+class camera : public S3Dobject
+{
+public:
+
+	camera(float aRatio, float fLength);
+	void set(const vec3& lookAt);
+	void resize(float newRatio, float newLength);
+
+private:
+	float aspectRatio;
+	float focalLength;
+
+};
+
+class player : public S3Dobject
+{
 
 };
